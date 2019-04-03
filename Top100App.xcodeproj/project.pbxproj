@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		316C2DA72252ECF5005372A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C2DA62252ECF5005372A0 /* AppDelegate.swift */; };
-		316C2DA92252ECF5005372A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C2DA82252ECF5005372A0 /* ViewController.swift */; };
 		316C2DAC2252ECF5005372A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316C2DAA2252ECF5005372A0 /* Main.storyboard */; };
 		316C2DAE2252ECF8005372A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316C2DAD2252ECF8005372A0 /* Assets.xcassets */; };
 		316C2DB12252ECF8005372A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316C2DAF2252ECF8005372A0 /* LaunchScreen.storyboard */; };
+		316C2DB92252ED3D005372A0 /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C2DB82252ED3D005372A0 /* SongTableViewController.swift */; };
+		316C2DBB2252EE27005372A0 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C2DBA2252EE27005372A0 /* SongViewController.swift */; };
+		316C2DBD2252F8BD005372A0 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C2DBC2252F8BD005372A0 /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		316C2DA32252ECF5005372A0 /* Top100App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Top100App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		316C2DA62252ECF5005372A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		316C2DA82252ECF5005372A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		316C2DAB2252ECF5005372A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		316C2DAD2252ECF8005372A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		316C2DB02252ECF8005372A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		316C2DB22252ECF8005372A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		316C2DB82252ED3D005372A0 /* SongTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewController.swift; sourceTree = "<group>"; };
+		316C2DBA2252EE27005372A0 /* SongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
+		316C2DBC2252F8BD005372A0 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				316C2DA62252ECF5005372A0 /* AppDelegate.swift */,
-				316C2DA82252ECF5005372A0 /* ViewController.swift */,
 				316C2DAA2252ECF5005372A0 /* Main.storyboard */,
+				316C2DBC2252F8BD005372A0 /* Song.swift */,
+				316C2DBA2252EE27005372A0 /* SongViewController.swift */,
+				316C2DB82252ED3D005372A0 /* SongTableViewController.swift */,
 				316C2DAD2252ECF8005372A0 /* Assets.xcassets */,
 				316C2DAF2252ECF8005372A0 /* LaunchScreen.storyboard */,
 				316C2DB22252ECF8005372A0 /* Info.plist */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				316C2DA92252ECF5005372A0 /* ViewController.swift in Sources */,
+				316C2DBD2252F8BD005372A0 /* Song.swift in Sources */,
+				316C2DBB2252EE27005372A0 /* SongViewController.swift in Sources */,
+				316C2DB92252ED3D005372A0 /* SongTableViewController.swift in Sources */,
 				316C2DA72252ECF5005372A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
